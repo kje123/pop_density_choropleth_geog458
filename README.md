@@ -7,6 +7,7 @@ For this lab, I will be creating two interactive maps analyzing Covid-19 data fr
 ## Links to Maps
 
 Map 1: https://kje123.github.io/us_covid_2020_geog458/map1.html
+
 Map 2: https://kje123.github.io/us_covid_2020_geog458/map2.html
 
 ## Primary Function
