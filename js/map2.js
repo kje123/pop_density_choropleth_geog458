@@ -14,7 +14,7 @@ let map = new mapboxgl.Map({
 // for circles
 const grades = [2500, 5000, 10000, 25000, 50000, 100000],
       clrs = ['rgb(237,248,251)', 'rgb(191,211,230)', 'rgb(158,188,218)', 'rgb(140,150,198)', 'rgb(136,86,167)', 'rgb(129,15,124)'],
-      radii = [5, 15, 25, 35, 50, 65];
+      radii = [5, 10, 15, 20, 25, 35];
 
 map.on('load', () => {
     map.addSource('covid-counts', {
