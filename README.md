@@ -12,9 +12,9 @@ Map 2: https://kje123.github.io/us_covid_2020_geog458/map2.html
 
 ## Primary Function
 
-For map 1, the primary function is the ability to hover over any U.S. county to see the name, case count, death count, and case rate of each county in the information panel on the top right.
+For map 1, the primary function adds the covid rates data to the map layer, adds the choropleth layer per county by seperating each case count into buckets of 15, 30, 45, 60, 75, 90, and 105+, and finally adds the ability to hover over any U.S. county to see the name, case count, death count, and case rate of each county in the information panel on the top right.
 
-For map 2, the primary function is the ability to click on each dot (representing each county) to see the name of the county, the case count, and the death count.
+For map 2, the primary function adds the covid case data to the map layer, then adds the proportional symbols sized by buckets of 2,500, 5,000, 10,000, 25,000, 50,000 and 100,000+, and finally adds the ability to click on each dot (representing each county) to see the name of the county, the case count, and the death count.
 
 ## Libraries in Use
 
