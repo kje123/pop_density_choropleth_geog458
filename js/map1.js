@@ -45,6 +45,18 @@ map.on('load', () => {
             'fill-opacity': 0.7,
         }
     });
+
+    map.on('mousemove', ({point}) => {
+        const county = map.queryRenderedFeatures(point, {
+            layers: ['covid-rates-layer']
+        });
+        document.getElementById('text-description').innerHTML = county.length ?
+            `<h3>${county[0].properties.county}</h3>
+            <p><strong><em>${county[0].properties.cases}</strong> positive cases</em></p>
+            <p><strong><em>${county[0].properties.deaths}</strong> deaths</em></p>
+            <p><strong><em>${county[0].properties.rates}</strong> case rate</em></p>` :
+            `<p>Hover over a county to see more information.</p>`;
+    });
 });
 
 // legend
